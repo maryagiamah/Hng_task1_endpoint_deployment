@@ -1,5 +1,6 @@
 from datetime import datetime
 from flask import Flask, jsonify, request, render_template
+
 app = Flask(__name__)
 
 @app.route('/api')
@@ -23,3 +24,6 @@ def get_info():
     }
 
     return jsonify(response_data)
+    
+if __name__ == '__main__':
+    app.run(debug=True)
