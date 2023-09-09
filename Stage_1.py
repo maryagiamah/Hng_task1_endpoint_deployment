@@ -18,8 +18,8 @@ def get_info():
         "current_day": current_day,  # Dynamically getting the current day
         "utc_time": current_utc_time,
         "track": track,
-        "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext",
-        "github_repo_url": "https://github.com/username/repo",
+        "github_file_url": "https://github.com/maryagiamah/Hng_task1_endpoint_deployment/blob/main/Stage_1.py",
+        "github_repo_url": "https://github.com/maryagiamah/Hng_task1_endpoint_deployment",
         "status_code": 200
     }
 
